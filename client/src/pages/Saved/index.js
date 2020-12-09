@@ -55,7 +55,6 @@ class Saved extends Component {
                         synopsis={book.synopsis}
                         link={book.link}
                         thumbnail={book.thumbnail}
-                      // delete={()=> this.deleteFromDB(book._id)}
                       />
                       <RemoveBookBtn
                         onClick={() => this.deleteFromDB(book._id)}
