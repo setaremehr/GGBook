@@ -13,14 +13,16 @@ export class BookListItem extends React.Component {
   render() {
     console.log(this.props)
       ; return (
-        <li >
+        <li class="border ">
           <Container>
+          <hr />
             <Row>
-              <Col size="xs-4 sm-2">
-                <Thumbnail src={this.props.thumbnail} />
+              <Col size="xs-4 sm-2" >
+                <Thumbnail src={this.props.thumbnail} class="rounded-circle" />
               </Col>
               <Col size="xs-8 sm-9">
                 <h3>{this.props.title}<span><h5>{this.props.authors.join(", ")}</h5></span></h3>
+              <hr />
                 <p>
                   {this.props.synopsis}
                 </p>
@@ -29,7 +31,7 @@ export class BookListItem extends React.Component {
                   href={this.props.link}
                   rel="noopener noreferrer"
                 >
-                  Go to book!
+                  See more details!
               </a>
               </Col>
             </Row>

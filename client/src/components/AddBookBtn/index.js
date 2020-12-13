@@ -25,7 +25,7 @@ class AddBookBtn extends React.Component {
     return (
       <div>
         
-              <Button class="btn btn-primary" onClick={() => { this.postToDB(this.props) }
+              <Button  onClick={() => { this.postToDB(this.props) }
               }>
                 Save Me
         </Button>

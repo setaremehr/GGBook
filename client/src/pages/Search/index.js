@@ -47,11 +47,11 @@ class Search extends Component {
       <Row>
         <Col size="md-12">
         <div>
-          <input id="bookQ" placeholder="books name" className="form-control form-control-lg" autoComplete="off" type="text" name="query" onChange={this.handleInput} />
+          <input id="bookQ" placeholder="books name" className="form-control form-control-lg" autoComplete="on" type="text" name="query" onChange={this.handleInput} />
           <button  type="submit"  class="btn btn-dark" onClick={this.searchGBooks} >
             Search 
           </button>
-                   
+          <hr />        
 
           {(this.state.books && this.state.books.length > 0) ? 
           <BookList>

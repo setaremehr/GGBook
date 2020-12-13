@@ -32,7 +32,7 @@ class Saved extends Component {
       .then( () => {
         toast.error('Book Deleted');
         this.getBooks();
-        
+
       })
       .catch(err => console.log(err))
   }
