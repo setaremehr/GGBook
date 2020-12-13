@@ -1,13 +1,10 @@
 # Google Book App
-
+  React-based Google Books Search app.
+  Built to practice creating React components
 
 
 # Table of Contents 
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
-* [Contributing](#contributing)
-* [Tests](#tests)
+* [Dependencies](#dependencies)
 * [Questions](#questions)
 
 ### Github Link:
