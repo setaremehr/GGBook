@@ -10,11 +10,13 @@
 * [Tests](#tests)
 * [Questions](#questions)
 
-### Github Links:
+### Github Link:
 * [my Github repo](https://github.com/setaremehr/GGbook.git)
-* [View on localhost](http://localhost:3000/)
+
+### live site
+* deployed: https://ggbook.herokuapp.com/
 ## Demo
-![](https://user-images.githubusercontent.com/66357101/101565279-921ef980-3981-11eb-819c-3794f635ab6d.png)
+![](https://user-images.githubusercontent.com/66357101/102025450-daa53100-3d4c-11eb-9ca5-e3f9713ddb61.png)
 ![]()
 
 ## Dependencies
